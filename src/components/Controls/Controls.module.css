@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ffa200;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background-color: #ffba40;
+}
