@@ -17,7 +17,7 @@ const Controls = ({ keys, onIncrement }) => {
 };
 
 Controls.propType = {
-  keys: PropTypes.array.isRequired,
+  keys: PropTypes.arrayOf(PropTypes.string.isRequired),
   onIncrement: PropTypes.func.isRequired,
 };
 
